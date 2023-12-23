@@ -1,9 +1,10 @@
 package lessons.lesson3;
 
 public class Lesson3 {
-    int i=5;
+    int i = 5;
     InitialValues initialValues = new InitialValues();
-    public void start(){
+
+    public void start() {
         // Вывод информации про инициализацию по умолчанию
 //        initialValues.print();
 
@@ -39,19 +40,20 @@ public class Lesson3 {
 //        System.out.println(new House().toString());
         //Здесь уже будет переопределен toString(корректный вывод в консоль)
 //            System.out.println(Spiciness.HOT);
-            new Burrito(Spiciness.NOT).describe();
+        new Burrito(Spiciness.NOT).describe();
     }
 
-    public void printSomeArguments(String ... values){
+    public void printSomeArguments(String... values) {
         System.out.println("Вызов метода");
-        for(String value : values){
+        for (String value : values) {
             System.out.println(value);
         }
     }
-    public void printSomeArguments(Integer ... values){
+
+    public void printSomeArguments(Integer... values) {
         System.out.println("Вызов метода");
-        for(Integer value : values){
-            System.out.println(value+5);
+        for (Integer value : values) {
+            System.out.println(value + 5);
         }
     }
 }

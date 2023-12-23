@@ -1,9 +1,9 @@
-package tasks;
+package Homeworks;
 
 import java.util.Random;
 
-public class hw1 {
-    public static void main(String[] args) {
+public class Hw1 {
+    static void start(){
         int[] f = new int[10];
         for (int i = 0; i < f.length; i++) {
             f[i] = 2 * i + 3;
