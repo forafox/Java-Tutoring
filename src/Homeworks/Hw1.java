@@ -3,7 +3,7 @@ package Homeworks;
 import java.util.Random;
 
 public class Hw1 {
-    static void start(){
+    static void start() {
         int[] f = new int[10];
         for (int i = 0; i < f.length; i++) {
             f[i] = 2 * i + 3;
@@ -28,18 +28,19 @@ public class Hw1 {
                 double arct = Math.atan(expResult);
                 double pi = Math.PI;
                 double pi2 = Math.PI / 2;
-                double b = ((pi2 + modx)/modx);
+                double b = ((pi2 + modx) / modx);
                 double sqrt = Math.sqrt(b);
                 double ln = Math.log(sqrt);
-                double arcsin = Math.asin(xx/24);
-                double tang = Math.tan(1/arcsin);
-                double c = Math.pow(4 - 4*tang, 2);
+                double arcsin = Math.asin(xx / 24);
+                double tang = Math.tan(1 / arcsin);
+                double c = Math.pow(4 - 4 * tang, 2);
                 double result = 0;
-                if(f[i] == 9){
-                    k[i][j] = e/(arct + pi);
-                } else if (f[i] == 3 || f[i] == 5 ||  f[i] == 7 ||  f[i] == 13 ||  f[i] == 21) {
+                if (f[i] == 9) {
+                    k[i][j] = e / (arct + pi);
+                } else if (f[i] == 3 || f[i] == 5 || f[i] == 7 || f[i] == 13 || f[i] == 21) {
                     k[i][j] = ln;
-                }else { k[i][j] = c;
+                } else {
+                    k[i][j] = c;
                 }
 
 
