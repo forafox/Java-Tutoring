@@ -7,7 +7,9 @@ abstract class Instrument {
     //нужно переопределить
     public abstract void play(Note n);
     //реализованный метод
-    public String what() { return "Instrument"; }
+    public String what() {
+        return "Instrument";
+    }
     //нужно переопределить
     public abstract void adjust();
 }

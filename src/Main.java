@@ -3,6 +3,7 @@ import lessons.lesson3.Lesson3;
 import lessons.lesson4.Lesson4;
 import lessons.lesson5.Lesson5;
 import lessons.lesson6.Lesson6;
+import lessons.lesson7.Lesson7;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,9 +28,11 @@ public class Main {
         //lesson
 //        Lesson5 lesson5=new Lesson5();
 //        lesson5.start();
-        Lesson6 lesson6 = new Lesson6();
-        lesson6.start();
+//        Lesson6 lesson6 = new Lesson6();
+//        lesson6.start();
 
+//        Lesson7 lesson7 = new Lesson7();
+//        lesson7.start();
 
     }
 }

@@ -5,3 +5,4 @@ public class Cat {
     static int age2=15;
     static int age3=5;
 }
+
