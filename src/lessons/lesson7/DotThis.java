@@ -1,8 +1,7 @@
 package lessons.lesson7;
 
 public class DotThis {
-    void f() { System.out.println("DotThis.f()"); }
-
+    void f(int a) { System.out.println("DotThis.f()"); }
 
     public class Inner {
         public DotThis outer() {

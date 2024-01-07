@@ -4,6 +4,8 @@ import lessons.lesson4.Lesson4;
 import lessons.lesson5.Lesson5;
 import lessons.lesson6.Lesson6;
 import lessons.lesson7.Lesson7;
+import lessons.lesson8.Lesson8;
+import lessons.lesson8.SimpleException;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +35,9 @@ public class Main {
 
 //        Lesson7 lesson7 = new Lesson7();
 //        lesson7.start();
+
+//        Lesson8 lesson8 = new Lesson8();
+//        lesson8.start();
 
     }
 }
